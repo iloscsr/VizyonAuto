@@ -1,0 +1,77 @@
+<form class="col-xl-11 offset-xl-1" align="center">
+   <br>    
+           <h3 align="center"> <p class="text-dark"> Lütfen Kredi Kartı veya Bankamatik Kartı Bilgilerinizi Giriniz </p> </h3>
+     <br>
+  <div class="col-md-2">
+       </div>
+       </form>
+      <div style="margin-top:15px;" class="Ks_ContentWrapper">
+	<div class="Ks_sptDiv"><div style="margin-top:15px; margin-bottom:15px;" align="center">
+	<table border="0" cellspacing="0" cellpadding="0"><input type="hidden" id="odm_PosID" name="PosID" value="">
+	<input type="hidden" size="20" id="odm_TaksitID" name="TaksitID" value="0"><tbody><tr>
+		<td bgcolor="#F8F8F8" width="600" style="border: 1px solid #C0C0C0; padding: 6px">
+		<table border="0" width="100%" id="table2">
+					<tbody><tr>
+						<td height="35" class="Basliklar">Kart Sahibinin Adı Soyadı</td>
+						<td class="AltCizgi"><input type="text" class="textform" name="KrediKartiAdSoyad" size="35"></td>
+					</tr>
+					<tr>
+						<td height="35" class="Basliklar">Kredi Kartı Numarası</td>
+						<td class="AltCizgi">
+						<table border="0" cellspacing="0" cellpadding="0" id="table3">
+								<tbody><tr>
+									<td><input class="textform" type="text" onkeyup="KartKontrol(1);" oncontextmenu="return false;" id="KartNo1" maxlength="4" name="KartNo1" size="4"></td>
+									<td style="padding-left:5px;"><input onkeyup="KartKontrol(2);" class="textform" type="text" oncontextmenu="return false;" id="KartNo2" maxlength="4" name="KartNo2" size="4"></td>
+									<td style="padding-left:5px;"><input onkeyup="KartKontrol(3);" class="textform" type="text" oncontextmenu="return false;" id="KartNo3" maxlength="4" name="KartNo3" size="4"></td>
+									<td style="padding-left:5px;"><input class="textform" onkeyup="KartKontrol(4);" onchange="KartKontrol(4);" onblur="KartKontrol(4);" type="text" oncontextmenu="return false;" id="KartNo4" maxlength="4" name="KartNo4" size="4"></td>
+								</tr>
+							</tbody></table></td>
+					</tr>
+					<tr>
+						<td height="35" class="Basliklar">Güvenlik Kodu - Cvv2</td>
+						<td class="AltCizgi"><input type="text" class="textform" oncontextmenu="return false;" id="KrediKartiCVV" maxlength="3" name="KrediKartiCVV" size="3"></td>
+					</tr>
+					<tr>
+						<td height="35" class="Basliklar">Son Kullanma Tarihi</td>
+						<td class="AltCizgi">
+						<table border="0" cellspacing="0" cellpadding="0" id="table33">
+							<tbody><tr>
+								<td><select class="textform" size="1" name="KrediKartiAy"><option value="01">Ocak</option><option value="02"> Şubat</option><option value="03"> Mart</option><option value="04"> Nisan</option><option value="05"> Mayıs</option><option value="06"> Haziran</option><option value="07"> Temmuz</option><option value="08"> Ağustos</option><option value="09">Eylül</option><option value="10"> Ekim</option><option value="11"> Kasım</option><option value="12"> Aralık</option></select></td>
+								<td style="padding-left:5px;"><select class="textform" size="1" name="KrediKartiYil"><option value="2021">2021</option><option value="2022">2022</option><option value="2023">2023</option><option value="2024">2024</option><option value="2025">2025</option><option value="2026">2026</option><option value="2027">2027</option><option value="2028">2028</option><option value="2029">2029</option><option value="2030">2030</option><option value="2031">2031</option><option value="2032">2032</option> </select></td>
+							</tr>
+						</tbody></table>
+						</td>
+					</tr>
+					<tr>
+						<td height="35" class="Basliklar">Kart Tipi</td>
+						<td class="AltCizgi">
+						<table border="0" id="table4">
+							<tbody><tr>
+								<td>
+								<input type="radio" value="2" name="KrediKartiTip"></td>
+								<td>
+								<img border="0" src="../images/ilayda_cosar/kart1.png" width="50" height="31"></td>
+								<td>
+								<input type="radio" value="1" checked="" name="KrediKartiTip"></td>
+								<td>
+								<img border="0" src="../images/ilayda_cosar/kart2.png" width="50" height="32"></td>
+							</tr>
+						</tbody></table>
+						</td>
+					</tr>
+					
+					<tr>
+						<td> 
+						
+						*** Lütfen Kart Bilgilerinizi Eksiksiz Giriniz...
+						
+						</td>
+					</tr>
+					
+				</tbody></table>
+				</td>
+					</tr>
+									
+				</tbody></table></div>
+				</div></div>
+   
